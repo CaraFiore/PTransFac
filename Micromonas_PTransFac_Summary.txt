@@ -13,3 +13,6 @@ Primers/qPCR for PSR1
 Harriet To Do:
 Blast chlamydomonas PSR1 against Euk Transcriptome DB
 Check Thap dataset for what TCA cycle genes look like - up/down regulated
+
+Relevant websites etc.:
+http://meme.ebi.edu.au/meme-4.10.0/index.html
