@@ -1,0 +1,15 @@
+Micromonas and green algae transcription factor PSR1
+
+The Idea:
+We hypothesize that a phosphorus starvation response transcriptional regulator (PSR1) is present in marine green algae and coordinates the metabolic shift in response to phosphate limitation. The transcription factor has been characterized in C. reinhardtii and in plants. The metabolomics data suggests the part of the metabolic response to P-limitation is an increase in fatty acid biosynthesis and increased flux through the TCA cycle (which then provides the skeletons for the shift in metabolism), and a decrease in amino acid metabolism from glutamate and in pyrimidine biosynthesis from aspartate. These processes may be all regulated by PSR1 and this would be supported if they have common motifs with Myb domains in the promoter region or introns in these genes.
+
+Cara To Do:
+Gather more P relevant genes and test for motifs
+Test out MAST for searching genome for motifs
+Look for motifs in the relevant genes from other green lineage members
+Characterize motifs - hopefully have Myb domain
+Primers/qPCR for PSR1 
+
+Harriet To Do:
+Blast chlamydomonas PSR1 against Euk Transcriptome DB
+Check Thap dataset for what TCA cycle genes look like - up/down regulated
