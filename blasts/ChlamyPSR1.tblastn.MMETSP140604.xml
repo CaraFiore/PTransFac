@@ -1,0 +1,3292 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>tblastn</BlastOutput_program>
+  <BlastOutput_version>TBLASTN 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/harrietalexander/Analysis/MMETSP_BlastDB/MMETSP_150604/MMETSP_nucleotides</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Chlamydomonas_PSR1</BlastOutput_query-def>
+  <BlastOutput_query-len>752</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Chlamydomonas_PSR1</Iteration_query-def>
+  <Iteration_query-len>752</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>CAMNT_0049538053</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1391-20130828|1336 /ASSEMBLY_ACC=CAM_ASM_000867 /TAXON_ID=1034604 /ORGANISM=&quot;Chlamydomonas leiostraca, Strain SAG 11-49&quot; /LENGTH=1813</Hit_def>
+  <Hit_accession>CAMNT_0049538053</Hit_accession>
+  <Hit_len>1813</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>6.07834e-26</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>682</Hsp_hit-from>
+      <Hsp_hit-to>861</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHNRFVQSVNSLGGPERATPKGILKLMSVDGLTIYHIKSHLQKYRLNIKMP</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELHNRFV +VNSLGGP++ATPKGILKLM VDGLTIYHIKSHLQKYRLNI++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>CAMNT_0049582789</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1392-20130828|6031 /ASSEMBLY_ACC=CAM_ASM_000868 /TAXON_ID=225041 /ORGANISM=&quot;Chlamydomonas chlamydogama, Strain SAG 11-48b&quot; /LENGTH=2826</Hit_def>
+  <Hit_accession>CAMNT_0049582789</Hit_accession>
+  <Hit_len>2826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>1.37039e-25</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>633</Hsp_hit-from>
+      <Hsp_hit-to>821</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>GPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>GPQKSRLRWTPELHNRFVNCVAQLGGPEKATPKGILKLMNVSGLTIYHIKSHLQKFRLNIKLP</Hsp_hseq>
+      <Hsp_midline>GP KSRLRWTPELHNRFVN V  LGGP+KATPKGILKLM V GLTIYHIKSHLQK+RLNI+LP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.10475e-17</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>1122</Hsp_hit-from>
+      <Hsp_hit-to>1274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>RRNLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQEGLTSR</Hsp_qseq>
+      <Hsp_hseq>RKNLEDALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIVSLMEQEGITAK</Hsp_hseq>
+      <Hsp_midline>R+NLE+ALLFQMELQKKLHEQLETQRQLQLSLEAHGRYI SLMEQEG+T++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>CAMNT_0048930689</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1126-20121109|1650 /ASSEMBLY_ACC=CAM_ASM_000457 /TAXON_ID=3047 /ORGANISM=&quot;Dunaliella tertiolecta, Strain CCMP1320&quot; /LENGTH=2512</Hit_def>
+  <Hit_accession>CAMNT_0048930689</Hit_accession>
+  <Hit_len>2512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>4.08106e-24</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1554</Hsp_hit-from>
+      <Hsp_hit-to>1736</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>SKSRLRWTPELHGRFVQAVNQLGGPDRATPKGILKLVNSEGLTIYHIKSHLQKYRLNIKLP</Hsp_hseq>
+      <Hsp_midline>+KSRLRWTPELH RFV AVN LGGPD+ATPKGILKL+  +GLTIYHIKSHLQKYRLNI+LP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>1.959e-12</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>888</Hsp_hit-from>
+      <Hsp_hit-to>1019</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>NLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQE</Hsp_qseq>
+      <Hsp_hseq>SLEAALLFQMEMQKKLHEQLESQRQLQLSLEAHGRYLATLIEQE</Hsp_hseq>
+      <Hsp_midline>+LE ALLFQME+QKKLHEQLE+QRQLQLSLEAHGRY+A+L+EQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>CAMNT_0049006695</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1128-20130828|4363 /ASSEMBLY_ACC=CAM_ASM_000463 /TAXON_ID=3047 /ORGANISM=&quot;Dunaliella tertiolecta, Strain CCMP1320&quot; /LENGTH=2516</Hit_def>
+  <Hit_accession>CAMNT_0049006695</Hit_accession>
+  <Hit_len>2516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>4.15892e-24</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1595</Hsp_hit-from>
+      <Hsp_hit-to>1777</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>SKSRLRWTPELHGRFVQAVNQLGGPDRATPKGILKLVNSEGLTIYHIKSHLQKYRLNIKLP</Hsp_hseq>
+      <Hsp_midline>+KSRLRWTPELH RFV AVN LGGPD+ATPKGILKL+  +GLTIYHIKSHLQKYRLNI+LP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>1.91059e-12</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>929</Hsp_hit-from>
+      <Hsp_hit-to>1060</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>NLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQE</Hsp_qseq>
+      <Hsp_hseq>SLEAALLFQMEMQKKLHEQLESQRQLQLSLEAHGRYLATLIEQE</Hsp_hseq>
+      <Hsp_midline>+LE ALLFQME+QKKLHEQLE+QRQLQLSLEAHGRY+A+L+EQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>CAMNT_0048998389</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1127-20130417|94095 /ASSEMBLY_ACC=CAM_ASM_000462 /TAXON_ID=3047 /ORGANISM=&quot;Dunaliella tertiolecta, Strain CCMP1320&quot; /LENGTH=2006</Hit_def>
+  <Hit_accession>CAMNT_0048998389</Hit_accession>
+  <Hit_len>2006</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.13856e-23</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>927</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>SKSRLRWTPELHGRFVQAVNQLGGPDRATPKGILKLVNSEGLTIYHIKSHLQKYRLNIKLP</Hsp_hseq>
+      <Hsp_midline>+KSRLRWTPELH RFV AVN LGGPD+ATPKGILKL+  +GLTIYHIKSHLQKYRLNI+LP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>7.75112e-13</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1518</Hsp_hit-from>
+      <Hsp_hit-to>1649</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>NLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQE</Hsp_qseq>
+      <Hsp_hseq>SLEAALLFQMEMQKKLHEQLESQRQLQLSLEAHGRYLATLIEQE</Hsp_hseq>
+      <Hsp_midline>+LE ALLFQME+QKKLHEQLE+QRQLQLSLEAHGRY+A+L+EQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>CAMNT_0016328821</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0052_2-20121109|14349 /TAXON_ID=51329 ORGANISM=&quot;Polytomella parva, Strain SAG 63-3&quot; /NCGR_SAMPLE_ID=MMETSP0052_2 /ASSEMBLY_ACC=CAM_ASM_000194 /LENGTH=1328</Hit_def>
+  <Hit_accession>CAMNT_0016328821</Hit_accession>
+  <Hit_len>1328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>6.14172e-23</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>FMQPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>YSQPQKQ--GSHKNRLRWTPELHNLFVSAVTRLGGPEKATPKGIVTLMNVREITIYHVKSHLQKYRLNIKLP</Hsp_hseq>
+      <Hsp_midline>+ QPQ+   G  K+RLRWTPELHN FV+AV  LGGP+KATPKGI+ LM V  +TIYH+KSHLQKYRLNI+LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>CAMNT_0016342079</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0052_2-20121109|20978 /TAXON_ID=51329 ORGANISM=&quot;Polytomella parva, Strain SAG 63-3&quot; /NCGR_SAMPLE_ID=MMETSP0052_2 /ASSEMBLY_ACC=CAM_ASM_000194 /LENGTH=1459</Hit_def>
+  <Hit_accession>CAMNT_0016342079</Hit_accession>
+  <Hit_len>1459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.01462e-22</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>649</Hsp_hit-from>
+      <Hsp_hit-to>858</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>FMQPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>YSQPQKQ--GSHKNRLRWTPELHNLFVSAVTRLGGPEKATPKGIVTLMNVREITIYHVKSHLQKYRLNIKLP</Hsp_hseq>
+      <Hsp_midline>+ QPQ+   G  K+RLRWTPELHN FV+AV  LGGP+KATPKGI+ LM V  +TIYH+KSHLQKYRLNI+LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>CAMNT_0007105917</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1180-20130426|52450 /TAXON_ID=3052 ORGANISM=&quot;Chlamydomonas cf sp, Strain CCMP681&quot; /NCGR_SAMPLE_ID=MMETSP1180 /ASSEMBLY_ACC=CAM_ASM_000741 /LENGTH=3159</Hit_def>
+  <Hit_accession>CAMNT_0007105917</Hit_accession>
+  <Hit_len>3159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.53394e-22</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>2287</Hsp_hit-from>
+      <Hsp_hit-to>2508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>YFMQPQRAATGPA-KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>YSSQPSKQEMSAAQKARLRWTPELHNLFAQAVSQLQGPDRATPKGILKLMNVDGLTIYHIKSHLQKYRLNIKMP</Hsp_hseq>
+      <Hsp_midline>Y  QP +     A K+RLRWTPELHN F  AV+ L GPD+ATPKGILKLM VDGLTIYHIKSHLQKYRLNI++P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.56709e-17</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>1383</Hsp_hit-from>
+      <Hsp_hit-to>1535</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>RRNLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQEGLTSR</Hsp_qseq>
+      <Hsp_hseq>RKDLEDALLFQMELQKKLHEQLESQRQLQLSLEAHGRYIVTLMEQEGITSR</Hsp_hseq>
+      <Hsp_midline>R++LE+ALLFQMELQKKLHEQLE+QRQLQLSLEAHGRYI +LMEQEG+TSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>CAMNT_0006725975</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1161-20130426|908 /TAXON_ID=249345 /ORGANISM=&quot;Picochlorum oklahomensis, Strain CCMP2329&quot; /LENGTH=5938</Hit_def>
+  <Hit_accession>CAMNT_0006725975</Hit_accession>
+  <Hit_len>5938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.91822e-22</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1987</Hsp_hit-from>
+      <Hsp_hit-to>2190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>QRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>RRRVQSSSKARLRWTPELHQRFVGAVHSLGGPEKATPKGILNLMNVEDLTIYHIKSHLQKYRLNIKVP</Hsp_hseq>
+      <Hsp_midline>+R     +K+RLRWTPELH RFV AV+SLGGP+KATPKGIL LM V+ LTIYHIKSHLQKYRLNI++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>CAMNT_0000924283</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1159-20121227|2481 /TAXON_ID=88271 /ORGANISM=&quot;Picocystis salinarum&quot; /LENGTH=1036</Hit_def>
+  <Hit_accession>CAMNT_0000924283</Hit_accession>
+  <Hit_len>1036</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.23523e-22</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>694</Hsp_hit-from>
+      <Hsp_hit-to>882</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>AHGNSKLRLRWTPELHDRFVEAVERLGGADKATPKGVLQRMDVDGMTIYHVKSHLQKYRLSVK</Hsp_hseq>
+      <Hsp_midline>A G +K RLRWTPELH+RFV AV  LGG DKATPKG+L+ M VDG+TIYH+KSHLQKYRL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>CAMNT_0026078143</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0807_2-20130328|5393 /TAXON_ID=88271 /ORGANISM=&quot;Picocystis salinarum, Strain CCMP1897&quot; /LENGTH=1222</Hit_def>
+  <Hit_accession>CAMNT_0026078143</Hit_accession>
+  <Hit_len>1222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>8.93388e-22</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>812</Hsp_hit-from>
+      <Hsp_hit-to>1000</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>AHGNSKLRLRWTPELHDRFVEAVERLGGADKATPKGVLQRMDVDGMTIYHVKSHLQKYRLSVK</Hsp_hseq>
+      <Hsp_midline>A G +K RLRWTPELH+RFV AV  LGG DKATPKG+L+ M VDG+TIYH+KSHLQKYRL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>CAMNT_0024998245</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0034_2-20130328|7940 /TAXON_ID=156128 /ORGANISM=&quot;Nephroselmis pyriformis, Strain CCMP717&quot; /LENGTH=1552</Hit_def>
+  <Hit_accession>CAMNT_0024998245</Hit_accession>
+  <Hit_len>1552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.77924e-21</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRL</Hsp_qseq>
+      <Hsp_hseq>GISKQRLRWTPELHDRFVEAVDQLGGADKATPKSVLRLIGMEGMTIYHVKSHLQKYRLNVRL</Hsp_hseq>
+      <Hsp_midline>G +K RLRWTPELH+RFV AV+ LGG DKATPK +L+L+G++G+TIYH+KSHLQKYRLN+RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>CAMNT_0026068369</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0807_2-20130328|73 /TAXON_ID=88271 /ORGANISM=&quot;Picocystis salinarum, Strain CCMP1897&quot; /LENGTH=2128</Hit_def>
+  <Hit_accession>CAMNT_0026068369</Hit_accession>
+  <Hit_len>2128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.1915e-21</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>684</Hsp_hit-from>
+      <Hsp_hit-to>866</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>AKQRLRWTPELHDSFVKSVEKLGGPDKATPKGILKLMNVDNMTIYHVKSHLQKFRLSTKIP</Hsp_hseq>
+      <Hsp_midline>AK RLRWTPELH+ FV +V  LGGPDKATPKGILKLM VD +TIYH+KSHLQK+RL+ ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>CAMNT_0047852405</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0063_2-20130828|62867 /ASSEMBLY_ACC=CAM_ASM_000185 /TAXON_ID=327068 /ORGANISM=&quot;Chlamydomonas euryale, Strain CCMP219&quot; /LENGTH=1569</Hit_def>
+  <Hit_accession>CAMNT_0047852405</Hit_accession>
+  <Hit_len>1569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>2.95769e-21</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1203</Hsp_hit-from>
+      <Hsp_hit-to>1385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>GMSKSRLRWTPELHNLFVHCVNQLGGGEKATPKGILKLMNVEGLTIYHIKSHLQKYRINTK</Hsp_hseq>
+      <Hsp_midline>G +KSRLRWTPELHN FV+ VN LGG +KATPKGILKLM V+GLTIYHIKSHLQKYR+N +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>5.8273e-12</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>778</Hsp_hit-from>
+      <Hsp_hit-to>909</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>NLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQE</Hsp_qseq>
+      <Hsp_hseq>NLEAALKFQMELQKKLHEQLEAQRQLQLSLEAHGQYIATLMQQQ</Hsp_hseq>
+      <Hsp_midline>NLE AL FQMELQKKLHEQLE QRQLQLSLEAHG+YIA+LM+Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>CAMNT_0007117961</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1310-20130426|6134 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC2339&quot; /LENGTH=1444</Hit_def>
+  <Hit_accession>CAMNT_0007117961</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>6.96581e-21</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1251</Hsp_hit-from>
+      <Hsp_hit-to>1424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPELHELFVRAVEHLGGPLQATPKGILKIMGVQGMTIYHIKSHLQKYRMNIR</Hsp_hseq>
+      <Hsp_midline>K RLRWTPELH  FV AV  LGGP +ATPKGILK+MGV G+TIYHIKSHLQKYR+NIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>CAMNT_0006875493</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1169-20130426|10624 /TAXON_ID=36882 /ORGANISM=&quot;Pyramimonas obovata, Strain CCMP722&quot; /LENGTH=1287</Hit_def>
+  <Hit_accession>CAMNT_0006875493</Hit_accession>
+  <Hit_len>1287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>3.98343e-20</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>RVRWTPELHARFVEAVNMLGGADRATPKGILRSMGVDGMTIFHIKSHLQKYRLQL</Hsp_hseq>
+      <Hsp_midline>R+RWTPELH RFV AVN LGG D+ATPKGIL+ MGVDG+TI+HIKSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>CAMNT_0026052909</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0803_2-20130417|42935 /TAXON_ID=195967 /ORGANISM=&quot;Crustomastix stigmata, Strain CCMP3273&quot; /LENGTH=625</Hit_def>
+  <Hit_accession>CAMNT_0026052909</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>9.54001e-20</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>AATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLN</Hsp_qseq>
+      <Hsp_hseq>AGSGPDKARLRWTPELHGAFVKAVSALGGLEAATPKGIVQLMGVSGMTVHHVKSHLQKYRLQ</Hsp_hseq>
+      <Hsp_midline>A +GP K+RLRWTPELH  FV AV++LGG + ATPKGI++LMGV G+T++H+KSHLQKYRL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>CAMNT_0043888223</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1445-20131203|28939 /TAXON_ID=36898 /ORGANISM=&quot;Pyramimonas sp., Strain CCMP2087&quot; /LENGTH=742</Hit_def>
+  <Hit_accession>CAMNT_0043888223</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.23865e-19</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>671</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>AVSNACKSRVRWTSELHARFVDEVNALGGPDHATPKAILRAMGVDGMTILHIKSHLQKYRLQL</Hsp_hseq>
+      <Hsp_midline>A +   KSR+RWT ELH RFV+ VN+LGGPD ATPK IL+ MGVDG+TI HIKSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>CAMNT_0043886117</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1445-20131203|25340 /TAXON_ID=36898 /ORGANISM=&quot;Pyramimonas sp., Strain CCMP2087&quot; /LENGTH=1492</Hit_def>
+  <Hit_accession>CAMNT_0043886117</Hit_accession>
+  <Hit_len>1492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.01949e-19</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>644</Hsp_hit-from>
+      <Hsp_hit-to>832</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>AVKDPNKARVRWTPELHSRFVEGVEMLGGADRATPKGILRSIGVEGMTIFHIKSHLQKYRLQL</Hsp_hseq>
+      <Hsp_midline>A   P K+R+RWTPELH+RFV  V  LGG D+ATPKGIL+ +GV+G+TI+HIKSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>CAMNT_0049730281</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1400-20130829|8151 /ASSEMBLY_ACC=CAM_ASM_000793 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp., Strain RCC451&quot; /LENGTH=1612</Hit_def>
+  <Hit_accession>CAMNT_0049730281</Hit_accession>
+  <Hit_len>1612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.43789e-19</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>890</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>RAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RAGTGDGKMRLRWTPELHKRFVDAVNRLGGLELATPKGIMQLMEVEGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>RA TG  K RLRWTPELH RFV+AVN LGG + ATPKGI++LM V+G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>CAMNT_0049621709</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1393-20130829|1446 /ASSEMBLY_ACC=CAM_ASM_000869 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp, Strain CS-222&quot; /LENGTH=831</Hit_def>
+  <Hit_accession>CAMNT_0049621709</Hit_accession>
+  <Hit_len>831</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.73381e-19</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>GKSRLRWTPELHKRFVDAVNRLGGLELATPKGIMQLMEVDGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline> KSRLRWTPELH RFV+AVN LGG + ATPKGI++LM VDG+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>CAMNT_0043485029</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1438-20131217|44227 /TAXON_ID=1461541 /ORGANISM=&quot;Pterosperma sp., Strain CCMP1384&quot; /LENGTH=1587</Hit_def>
+  <Hit_accession>CAMNT_0043485029</Hit_accession>
+  <Hit_len>1587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>4.34876e-19</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>797</Hsp_hit-from>
+      <Hsp_hit-to>967</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>KLRVRWTPELHASFVEAVNQLGGAERATPKGILKMMGVDGMTIYHIKSHLQKYRLQF</Hsp_hseq>
+      <Hsp_midline>K R+RWTPELH  FV AVN LGG ++ATPKGILK+MGVDG+TIYHIKSHLQKYRL  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>CAMNT_0049792499</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1403-20130829|7928 /ASSEMBLY_ACC=CAM_ASM_000794 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas pusilla, Strain CCMP1723 &quot; /LENGTH=1551</Hit_def>
+  <Hit_accession>CAMNT_0049792499</Hit_accession>
+  <Hit_len>1551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>4.84516e-19</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>628</Hsp_hit-from>
+      <Hsp_hit-to>813</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>RAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RTGTGDGKMRLRWTPELHKRFVDAVNRLGGLELATPKGIMQLMEVEGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>R  TG  K RLRWTPELH RFV+AVN LGG + ATPKGI++LM V+G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>CAMNT_0041970371</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1085-20130531|3295 /TAXON_ID=41879 ORGANISM=&quot;Pycnococcus sp, Strain CCMP1998&quot; /NCGR_SAMPLE_ID=MMETSP1085 /ASSEMBLY_ACC=CAM_ASM_000807 /LENGTH=881</Hit_def>
+  <Hit_accession>CAMNT_0041970371</Hit_accession>
+  <Hit_len>881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>7.66945e-19</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>AAGPTKKRLRWTPDLHANFVSAVETLGGPKKATPKAILREMAVPGMTVYHVKSHLQKFRMHTK</Hsp_hseq>
+      <Hsp_midline>A GP K RLRWTP+LH  FV+AV +LGGP KATPK IL+ M V G+T+YH+KSHLQK+R++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>CAMNT_0041581561</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0941-20130531|8842 /TAXON_ID=156131 /ORGANISM=&quot;Prasinococcus capsulatus, Strain CCMP1194&quot; /LENGTH=3121</Hit_def>
+  <Hit_accession>CAMNT_0041581561</Hit_accession>
+  <Hit_len>3121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>9.16173e-19</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>2019</Hsp_hit-from>
+      <Hsp_hit-to>2204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>AATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLN</Hsp_qseq>
+      <Hsp_hseq>GASNAGKKRLRWTPELHDKFVTAVSRLGGPEKATPKAILTHMGVDGLTIYHIKSHLQKFRMS</Hsp_hseq>
+      <Hsp_midline> A+   K RLRWTPELH++FV AV+ LGGP+KATPK IL  MGVDGLTIYHIKSHLQK+R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>CAMNT_0044187075</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1456-20131121|572 /TAXON_ID=1461544 ORGANISM=&quot;Unidentified sp., Strain RCC1871&quot; /NCGR_SAMPLE_ID=MMETSP1456 /ASSEMBLY_ACC=CAM_ASM_001119 /LENGTH=1230</Hit_def>
+  <Hit_accession>CAMNT_0044187075</Hit_accession>
+  <Hit_len>1230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>2.03843e-18</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>610</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>AAGPTKKRLRWTPDLHANFVSAVETLGGPKKATPKAILREMAVPGMTVYHVKSHLQKFRMHTK</Hsp_hseq>
+      <Hsp_midline>A GP K RLRWTP+LH  FV+AV +LGGP KATPK IL+ M V G+T+YH+KSHLQK+R++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>CAMNT_0041972699</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1085-20130531|5601 /TAXON_ID=41879 ORGANISM=&quot;Pycnococcus sp, Strain CCMP1998&quot; /NCGR_SAMPLE_ID=MMETSP1085 /ASSEMBLY_ACC=CAM_ASM_000807 /LENGTH=1293</Hit_def>
+  <Hit_accession>CAMNT_0041972699</Hit_accession>
+  <Hit_len>1293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>3.01073e-18</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>582</Hsp_hit-from>
+      <Hsp_hit-to>770</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>AAGPTKKRLRWTPDLHANFVSAVETLGGPKKATPKAILREMAVPGMTVYHVKSHLQKFRMHTK</Hsp_hseq>
+      <Hsp_midline>A GP K RLRWTP+LH  FV+AV +LGGP KATPK IL+ M V G+T+YH+KSHLQK+R++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>CAMNT_0047818307</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0063_2-20130828|7641 /ASSEMBLY_ACC=CAM_ASM_000185 /TAXON_ID=327068 /ORGANISM=&quot;Chlamydomonas euryale, Strain CCMP219&quot; /LENGTH=2801</Hit_def>
+  <Hit_accession>CAMNT_0047818307</Hit_accession>
+  <Hit_len>2801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>3.16988e-18</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>2114</Hsp_hit-from>
+      <Hsp_hit-to>2308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>RAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RDSQGHSRGRMRWTLKLHKRFVACIDMLGGPHQATPKGVLQLMNVDGLTIYHVKSHLQKYRLNNR</Hsp_hseq>
+      <Hsp_midline>R + G ++ R+RWT +LH RFV  ++ LGGP +ATPKG+L+LM VDGLTIYH+KSHLQKYRLN R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>CAMNT_0043051565</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1312-20131121|3677 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC2335&quot; /LENGTH=1311</Hit_def>
+  <Hit_accession>CAMNT_0043051565</Hit_accession>
+  <Hit_len>1311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>3.50609e-18</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>599</Hsp_hit-from>
+      <Hsp_hit-to>787</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>AAGPTKKRLRWTPDLHANFVSAVETLGGPKKATPKAILREMAVPGMTVYHVKSHLQKFRMHTK</Hsp_hseq>
+      <Hsp_midline>A GP K RLRWTP+LH  FV+AV +LGGP KATPK IL+ M V G+T+YH+KSHLQK+R++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>CAMNT_0042530687</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1386-20130603|11481 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp., Strain NEPCC29&quot; /LENGTH=1641</Hit_def>
+  <Hit_accession>CAMNT_0042530687</Hit_accession>
+  <Hit_len>1641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>4.05915e-18</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>850</Hsp_hit-from>
+      <Hsp_hit-to>1017</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>GKSRLRWTPELHKRFVDAVNRLGGLELATPKGIMQLMEVDGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline> KSRLRWTPELH RFV+AVN LGG + ATPKGI++LM VDG+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>CAMNT_0042545329</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1387-20130603|5165 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp., Strain RCC472&quot; /LENGTH=1627</Hit_def>
+  <Hit_accession>CAMNT_0042545329</Hit_accession>
+  <Hit_len>1627</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>4.23058e-18</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>704</Hsp_hit-from>
+      <Hsp_hit-to>898</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>RAAT---GPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RAGTVGGGDGKMRLRWTPELHKRFVDAVNRLGGLELATPKGIMQLMEVDGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>RA T   G  K RLRWTPELH RFV+AVN LGG + ATPKGI++LM VDG+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>CAMNT_0016313669</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0052_2-20121109|6773 /TAXON_ID=51329 ORGANISM=&quot;Polytomella parva, Strain SAG 63-3&quot; /NCGR_SAMPLE_ID=MMETSP0052_2 /ASSEMBLY_ACC=CAM_ASM_000194 /LENGTH=2689</Hit_def>
+  <Hit_accession>CAMNT_0016313669</Hit_accession>
+  <Hit_len>2689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.29741e-18</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>430</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RRNLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQEGLT</Hsp_qseq>
+      <Hsp_hseq>RRNLEEALLFQMELQKKLHDQLESQRQLQLSLEAHGRYIASLMEQEGLT</Hsp_hseq>
+      <Hsp_midline>RRNLEEALLFQMELQKKLH+QLE+QRQLQLSLEAHGRYIASLMEQEGLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>CAMNT_0016352935</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0052_2-20121109|26406 /TAXON_ID=51329 ORGANISM=&quot;Polytomella parva, Strain SAG 63-3&quot; /NCGR_SAMPLE_ID=MMETSP0052_2 /ASSEMBLY_ACC=CAM_ASM_000194 /LENGTH=2711</Hit_def>
+  <Hit_accession>CAMNT_0016352935</Hit_accession>
+  <Hit_len>2711</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.3247e-18</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>430</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RRNLEEALLFQMELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQEGLT</Hsp_qseq>
+      <Hsp_hseq>RRNLEEALLFQMELQKKLHDQLESQRQLQLSLEAHGRYIASLMEQEGLT</Hsp_hseq>
+      <Hsp_midline>RRNLEEALLFQMELQKKLH+QLE+QRQLQLSLEAHGRYIASLMEQEGLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>CAMNT_0041931453</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1082-20130531|2154 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp., Strain NEPCC29&quot; /LENGTH=1703</Hit_def>
+  <Hit_accession>CAMNT_0041931453</Hit_accession>
+  <Hit_len>1703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>4.36413e-18</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>686</Hsp_hit-from>
+      <Hsp_hit-to>853</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>GKSRLRWTPELHKRFVDAVNRLGGLELATPKGIMQLMEVDGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline> KSRLRWTPELH RFV+AVN LGG + ATPKGI++LM VDG+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>CAMNT_0001350839</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0058-20121206|8070 /TAXON_ID=36894 /ORGANISM=&quot;Pyramimonas parkeae, CCMP726&quot; /LENGTH=1586</Hit_def>
+  <Hit_accession>CAMNT_0001350839</Hit_accession>
+  <Hit_len>1586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>5.76276e-18</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>804</Hsp_hit-from>
+      <Hsp_hit-to>995</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>HAAGSVAKSRVRWTPDLHARFVEALALLGGAEQATPKGILRAMGVEGMTIYHVKSHLQKYRLQL</Hsp_hseq>
+      <Hsp_midline> AA   AKSR+RWTP+LH RFV A+  LGG ++ATPKGIL+ MGV+G+TIYH+KSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>CAMNT_0041963805</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1084-20130531|26237 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp., Strain RCC472&quot; /LENGTH=1648</Hit_def>
+  <Hit_accession>CAMNT_0041963805</Hit_accession>
+  <Hit_len>1648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>5.81623e-18</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>779</Hsp_hit-from>
+      <Hsp_hit-to>973</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>RAAT---GPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RAGTVGGGDGKMRLRWTPELHKRFVDAVNRLGGLELATPKGIMQLMEVDGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>RA T   G  K RLRWTPELH RFV+AVN LGG + ATPKGI++LM VDG+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>CAMNT_0001429245</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0059-20121206|16641 /TAXON_ID=36894 /ORGANISM=&quot;Pyramimonas parkeae, Strain CCMP726&quot; /LENGTH=1652</Hit_def>
+  <Hit_accession>CAMNT_0001429245</Hit_accession>
+  <Hit_len>1652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>6.31897e-18</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>864</Hsp_hit-from>
+      <Hsp_hit-to>1055</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>HAAGSVAKSRVRWTPDLHARFVEALALLGGAEQATPKGILRAMGVEGMTIYHVKSHLQKYRLQL</Hsp_hseq>
+      <Hsp_midline> AA   AKSR+RWTP+LH RFV A+  LGG ++ATPKGIL+ MGV+G+TIYH+KSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>CAMNT_0006905519</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1169-20130426|62103 /TAXON_ID=36882 /ORGANISM=&quot;Pyramimonas obovata, Strain CCMP722&quot; /LENGTH=2064</Hit_def>
+  <Hit_accession>CAMNT_0006905519</Hit_accession>
+  <Hit_len>2064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>7.03783e-18</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>1245</Hsp_hit-from>
+      <Hsp_hit-to>1433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>AARNVSKARVRWTPELHARFVEEVNLLGGPDHATPKAILRAMAVDGMTILHVKSHLQKYRLQL</Hsp_hseq>
+      <Hsp_midline>AA   +K+R+RWTPELH RFV  VN LGGPD ATPK IL+ M VDG+TI H+KSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>CAMNT_0041908621</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1081-20130531|55141 /TAXON_ID=36882 /ORGANISM=&quot;Pyramimonas amylifera, Strain CCMP720&quot; /LENGTH=1523</Hit_def>
+  <Hit_accession>CAMNT_0041908621</Hit_accession>
+  <Hit_len>1523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.29106e-17</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>652</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>ASSAASKARVRWTPELHVKFVECVNMLGGAERATPKGILRSIQVEGMTIYHIKSHLQKYRLQL</Hsp_hseq>
+      <Hsp_midline>A++  +K+R+RWTPELH +FV  VN LGG ++ATPKGIL+ + V+G+TIYHIKSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>CAMNT_0007185067</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1316-20130426|1363 /TAXON_ID=41880 /ORGANISM=&quot;Pycnococcus provasolii, Strain RCC2336&quot; /LENGTH=1579</Hit_def>
+  <Hit_accession>CAMNT_0007185067</Hit_accession>
+  <Hit_len>1579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.34574e-17</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>594</Hsp_hit-from>
+      <Hsp_hit-to>773</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHDMFTRVVEELNGPEKATPKAILKKMGVKGMTIYHVKSHLQKFRIHVKSP</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH+ F   V  L GP+KATPK ILK MGV G+TIYH+KSHLQK+R++++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>CAMNT_0040693677</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0806_2-20130528|31329 /TAXON_ID=156133 /ORGANISM=&quot;Prasinoderma coloniale, Strain CCMP1413&quot; /LENGTH=2002</Hit_def>
+  <Hit_accession>CAMNT_0040693677</Hit_accession>
+  <Hit_len>2002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.36187e-17</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>1132</Hsp_hit-from>
+      <Hsp_hit-to>1296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KKRMRWTPELHEKFVEVVGKLGGPDSATPKVILTMMGAEGLTIFHVKSHLQKYRM</Hsp_hseq>
+      <Hsp_midline>K R+RWTPELH +FV  V  LGGPD ATPK IL +MG +GLTI+H+KSHLQKYR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>CAMNT_0043918267</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1446-20131203|2374 /TAXON_ID=1461542 ORGANISM=&quot;Unidentified sp, Strain CCMP2111&quot; /NCGR_SAMPLE_ID=MMETSP1446 /ASSEMBLY_ACC=CAM_ASM_001112 /LENGTH=1591</Hit_def>
+  <Hit_accession>CAMNT_0043918267</Hit_accession>
+  <Hit_len>1591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>3.22087e-17</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>885</Hsp_hit-from>
+      <Hsp_hit-to>1055</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>KGRLRWTPDLHGNFVKAVEKLGGPDKATPKSILRKMGVSGVTLFHVKSHLQKYRMHT</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH  FV AV  LGGPDKATPK IL+ MGV G+T++H+KSHLQKYR++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>CAMNT_0041586509</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0941-20130531|22406 /TAXON_ID=156131 /ORGANISM=&quot;Prasinococcus capsulatus, Strain CCMP1194&quot; /LENGTH=1712</Hit_def>
+  <Hit_accession>CAMNT_0041586509</Hit_accession>
+  <Hit_len>1712</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>4.03335e-17</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>738</Hsp_hit-from>
+      <Hsp_hit-to>917</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>RAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RARTG--KQRMRWTTELHAKFCEAVTKLGGADRATPKQILTMMGVDGLTIFHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>RA TG  K R+RWT ELH +F  AV  LGG D+ATPK IL +MGVDGLTI+H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>CAMNT_0043012381</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1309-20131121|4660 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC998&quot; /LENGTH=4953</Hit_def>
+  <Hit_accession>CAMNT_0043012381</Hit_accession>
+  <Hit_len>4953</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>4.65382e-17</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>687</Hsp_hit-from>
+      <Hsp_hit-to>854</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLN</Hsp_qseq>
+      <Hsp_hseq>KCRLRWTPELHERFVAAVKRLGGEEKATPKSIMQLMNVAGLTIYHIKSHLQKFRIS</Hsp_hseq>
+      <Hsp_midline>K RLRWTPELH RFV AV  LGG +KATPK I++LM V GLTIYHIKSHLQK+R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>CAMNT_0047852319</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0063_2-20130828|62825 /ASSEMBLY_ACC=CAM_ASM_000185 /TAXON_ID=327068 /ORGANISM=&quot;Chlamydomonas euryale, Strain CCMP219&quot; /LENGTH=1119</Hit_def>
+  <Hit_accession>CAMNT_0047852319</Hit_accession>
+  <Hit_len>1119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>6.09958e-17</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>794</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>GNPKSRLRWTKQLHGRFRMAVEQLGGCDRATPKAIMQIMNVEGLTIYHVKSHLQKFRLSTR</Hsp_hseq>
+      <Hsp_midline>G  KSRLRWT +LH RF  AV  LGG D+ATPK I+++M V+GLTIYH+KSHLQK+RL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>CAMNT_0023496707</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1106-20121128|18164 /TAXON_ID=81844 /ORGANISM=&quot;Mantoniella antarctica, Strain SL-175&quot; /LENGTH=1948</Hit_def>
+  <Hit_accession>CAMNT_0023496707</Hit_accession>
+  <Hit_len>1948</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>6.24288e-17</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>1070</Hsp_hit-from>
+      <Hsp_hit-to>1237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>GKQRLRWTPELHKRFVEAVTRLGGLDLATPKGIMQLMGVTGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline> K RLRWTPELH RFV AV  LGG D ATPKGI++LMGV G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>CAMNT_0023472407</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1106-20121128|6014 /TAXON_ID=81844 /ORGANISM=&quot;Mantoniella antarctica, Strain SL-175&quot; /LENGTH=1994</Hit_def>
+  <Hit_accession>CAMNT_0023472407</Hit_accession>
+  <Hit_len>1994</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>6.95896e-17</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>1070</Hsp_hit-from>
+      <Hsp_hit-to>1237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>GKQRLRWTPELHKRFVEAVTRLGGLDLATPKGIMQLMGVTGMTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline> K RLRWTPELH RFV AV  LGG D ATPKGI++LMGV G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>CAMNT_0043054397</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1312-20131121|11423 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC2335&quot; /LENGTH=1086</Hit_def>
+  <Hit_accession>CAMNT_0043054397</Hit_accession>
+  <Hit_len>1086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>8.26399e-17</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>561</Hsp_hit-from>
+      <Hsp_hit-to>728</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLN</Hsp_qseq>
+      <Hsp_hseq>RCRLRWTPELHDRFEQAVKRLGGGDRATPKTVLQLMDVQGLTIFHVKSHLQKYRLS</Hsp_hseq>
+      <Hsp_midline>+ RLRWTPELH+RF  AV  LGG D+ATPK +L+LM V GLTI+H+KSHLQKYRL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>CAMNT_0041971531</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1085-20130531|4404 /TAXON_ID=41879 ORGANISM=&quot;Pycnococcus sp, Strain CCMP1998&quot; /NCGR_SAMPLE_ID=MMETSP1085 /ASSEMBLY_ACC=CAM_ASM_000807 /LENGTH=1130</Hit_def>
+  <Hit_accession>CAMNT_0041971531</Hit_accession>
+  <Hit_len>1130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>9.46391e-17</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>619</Hsp_hit-from>
+      <Hsp_hit-to>786</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLN</Hsp_qseq>
+      <Hsp_hseq>RCRLRWTPELHDRFEQAVKRLGGGDRATPKTVLQLMDVQGLTIFHVKSHLQKYRLS</Hsp_hseq>
+      <Hsp_midline>+ RLRWTPELH+RF  AV  LGG D+ATPK +L+LM V GLTI+H+KSHLQKYRL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>CAMNT_0044198343</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1456-20131121|26120 /TAXON_ID=1461544 ORGANISM=&quot;Unidentified sp., Strain RCC1871&quot; /NCGR_SAMPLE_ID=MMETSP1456 /ASSEMBLY_ACC=CAM_ASM_001119 /LENGTH=1117</Hit_def>
+  <Hit_accession>CAMNT_0044198343</Hit_accession>
+  <Hit_len>1117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>9.603e-17</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>610</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLN</Hsp_qseq>
+      <Hsp_hseq>RCRLRWTPELHDRFEQAVKRLGGGDRATPKTVLQLMDVQGLTIFHVKSHLQKYRLS</Hsp_hseq>
+      <Hsp_midline>+ RLRWTPELH+RF  AV  LGG D+ATPK +L+LM V GLTI+H+KSHLQKYRL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>CAMNT_0024834361</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1330-20130603|30919 /TAXON_ID=464278 /ORGANISM=&quot;Picochlorum sp., Strain RCC944&quot; /LENGTH=1108</Hit_def>
+  <Hit_accession>CAMNT_0024834361</Hit_accession>
+  <Hit_len>1108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.01189e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>564</Hsp_hit-from>
+      <Hsp_hit-to>737</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPDLHANFVSAVDTLGGPKMATPKAILKEMGVPGMTVYHVKSHLQKFRMHTK</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH  FV+AV++LGGP  ATPK ILK MGV G+T+YH+KSHLQK+R++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>CAMNT_0043919311</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1446-20131203|3076 /TAXON_ID=1461542 ORGANISM=&quot;Unidentified sp, Strain CCMP2111&quot; /NCGR_SAMPLE_ID=MMETSP1446 /ASSEMBLY_ACC=CAM_ASM_001112 /LENGTH=4490</Hit_def>
+  <Hit_accession>CAMNT_0043919311</Hit_accession>
+  <Hit_len>4490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>1.1755e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>3684</Hsp_hit-from>
+      <Hsp_hit-to>3851</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLN</Hsp_qseq>
+      <Hsp_hseq>KCRLRWTPHLHSRFLAAVKRLGGAERATPKSILKLMRVSGLTIYHVKSHLQKYRIS</Hsp_hseq>
+      <Hsp_midline>K RLRWTP LH+RF+ AV  LGG ++ATPK ILKLM V GLTIYH+KSHLQKYR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>CAMNT_0044378725</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1465-20131121|64473 /TAXON_ID=118079 ORGANISM=&quot;Phaeocystis cordata, Strain RCC1383&quot; /NCGR_SAMPLE_ID=MMETSP1465 /ASSEMBLY_ACC=CAM_ASM_001125 /LENGTH=1148</Hit_def>
+  <Hit_accession>CAMNT_0044378725</Hit_accession>
+  <Hit_len>1148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>1.50394e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>498</Hsp_hit-from>
+      <Hsp_hit-to>671</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPDLHANFVSAVVTLGGPKKATPKAILKEMQVPGMTVYHVKSHLQKFRMHTR</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH  FV+AV +LGGP KATPK ILK M V G+T+YH+KSHLQK+R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>CAMNT_0021593153</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0938-20121108|3365 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC1107&quot; /NCGR_SAMPLE_ID=MMETSP0938 /ASSEMBLY_ACC=CAM_ASM_000576 /LENGTH=902</Hit_def>
+  <Hit_accession>CAMNT_0021593153</Hit_accession>
+  <Hit_len>902</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.56919e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>CAMNT_0021495183</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0932-20121108|3540 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC2596&quot; /NCGR_SAMPLE_ID=MMETSP0932 /ASSEMBLY_ACC=CAM_ASM_000582 /LENGTH=886</Hit_def>
+  <Hit_accession>CAMNT_0021495183</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.57327e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>CAMNT_0049768511</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1402-20130829|3133 /ASSEMBLY_ACC=CAM_ASM_000895 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas pusilla, Strain RCC1614&quot; /LENGTH=1233</Hit_def>
+  <Hit_accession>CAMNT_0049768511</Hit_accession>
+  <Hit_len>1233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.86519e-16</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>ASNNNKQRLRWTPELHKMFVDAVKRLGGLDLATPKGIMQLMDVEGMSIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>A+   K RLRWTPELH  FV+AV  LGG D ATPKGI++LM V+G++I H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>CAMNT_0043018101</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1309-20131121|15203 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC998&quot; /LENGTH=1279</Hit_def>
+  <Hit_accession>CAMNT_0043018101</Hit_accession>
+  <Hit_len>1279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.94282e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>545</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPDLHANFVSAVDTLGGPKMATPKAILKEMGVPGMTVYHVKSHLQKFRMHTK</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH  FV+AV++LGGP  ATPK ILK MGV G+T+YH+KSHLQK+R++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>CAMNT_0015761953</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0929-20130131|2223 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC2572&quot; /NCGR_SAMPLE_ID=MMETSP0929 /ASSEMBLY_ACC=CAM_ASM_000573 /LENGTH=960</Hit_def>
+  <Hit_accession>CAMNT_0015761953</Hit_accession>
+  <Hit_len>960</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.17815e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>644</Hsp_hit-from>
+      <Hsp_hit-to>808</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>CAMNT_0024825937</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1330-20130603|2051 /TAXON_ID=464278 /ORGANISM=&quot;Picochlorum sp., Strain RCC944&quot; /LENGTH=5573</Hit_def>
+  <Hit_accession>CAMNT_0024825937</Hit_accession>
+  <Hit_len>5573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>3.84668e-16</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1815</Hsp_hit-from>
+      <Hsp_hit-to>1988</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>SRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRL</Hsp_qseq>
+      <Hsp_hseq>NRLRWTPELHALFVEAVQHLKGPEKATPKGIMLYMKVDGLTTFHIKSHLQKYRMNCSL</Hsp_hseq>
+      <Hsp_midline>+RLRWTPELH  FV AV  L GP+KATPKGI+  M VDGLT +HIKSHLQKYR+N  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>CAMNT_0044181661</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1453-20131121|27067 /TAXON_ID=1461543 ORGANISM=&quot;Unidentified sp., Strain RCC701&quot; /NCGR_SAMPLE_ID=MMETSP1453 /ASSEMBLY_ACC=CAM_ASM_001118 /LENGTH=1440</Hit_def>
+  <Hit_accession>CAMNT_0044181661</Hit_accession>
+  <Hit_len>1440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>4.18308e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>531</Hsp_hit-from>
+      <Hsp_hit-to>704</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPDLHANFVSAVVTLGGPKKATPKAILKEMQVPGMTVYHVKSHLQKFRMHTR</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH  FV+AV +LGGP KATPK ILK M V G+T+YH+KSHLQK+R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>CAMNT_0043042255</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1311-20131121|46105 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC856&quot; /LENGTH=1510</Hit_def>
+  <Hit_accession>CAMNT_0043042255</Hit_accession>
+  <Hit_len>1510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>4.69875e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>749</Hsp_hit-from>
+      <Hsp_hit-to>922</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPDLHANFVSAVVTLGGPKKATPKAILKEMQVPGMTVYHVKSHLQKFRMHTR</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH  FV+AV +LGGP KATPK ILK M V G+T+YH+KSHLQK+R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>CAMNT_0026180827</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0819-20130417|1078 /TAXON_ID=3165 /ORGANISM=&quot;Tetraselmis striata, Strain LANL1001&quot; /LENGTH=940</Hit_def>
+  <Hit_accession>CAMNT_0026180827</Hit_accession>
+  <Hit_len>940</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>6.28094e-16</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>QYF--MQPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>QHFGGLFPQSAAFRP---RLRWTNDLHNQFLDSVERLGGTDKATPSAILKHMGVDGLSLGHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>Q+F  + PQ AA  P   RLRWT +LHN+F+++V  LGG DKATP  ILK MGVDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>CAMNT_0023246369</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1080-20121227|8980 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp, Strain CCMP1646&quot; /LENGTH=1088</Hit_def>
+  <Hit_accession>CAMNT_0023246369</Hit_accession>
+  <Hit_len>1088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>9.35201e-16</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPQLHKRFVEAVSLLGGLDMATPKGIMQFMEVEGMSIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH RFV AV+ LGG D ATPKGI++ M V+G++I H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>CAMNT_0049758613</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1401-20130829|20772 /ASSEMBLY_ACC=CAM_ASM_000894 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas pusilla, Strain CCAC1681&quot; /LENGTH=811</Hit_def>
+  <Hit_accession>CAMNT_0049758613</Hit_accession>
+  <Hit_len>811</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.00645e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>569</Hsp_hit-from>
+      <Hsp_hit-to>733</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KQRLRWTPQLHKRFVEAVGLLGGLDMATPKGIMQFMEVEGMSIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K RLRWTP+LH RFV AV  LGG D ATPKGI++ M V+G++I H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>CAMNT_0021486207</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0930-20121108|7091 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC1621&quot; /NCGR_SAMPLE_ID=MMETSP0930 /ASSEMBLY_ACC=CAM_ASM_000580 /LENGTH=1735</Hit_def>
+  <Hit_accession>CAMNT_0021486207</Hit_accession>
+  <Hit_len>1735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.25107e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>CAMNT_0026136031</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0818-20130417|4222 /TAXON_ID=3165 /ORGANISM=&quot;Tetraselmis striata, Strain LANL1001&quot; /LENGTH=1532</Hit_def>
+  <Hit_accession>CAMNT_0026136031</Hit_accession>
+  <Hit_len>1532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.41707e-15</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>871</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>QYF--MQPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>QHFGGLFPQSAAFRP---RLRWTNDLHNQFLDSVERLGGTDKATPSAILKHMGVDGLSLGHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>Q+F  + PQ AA  P   RLRWT +LHN+F+++V  LGG DKATP  ILK MGVDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>CAMNT_0026083241</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0817-20130417|1808 /TAXON_ID=3165 /ORGANISM=&quot;Tetraselmis striata, Strain LANL1001&quot; /LENGTH=1628</Hit_def>
+  <Hit_accession>CAMNT_0026083241</Hit_accession>
+  <Hit_len>1628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.45971e-15</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>717</Hsp_hit-from>
+      <Hsp_hit-to>929</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>QYF--MQPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>QHFGGLFPQSAAFRP---RLRWTNDLHNQFLDSVERLGGTDKATPSAILKHMGVDGLSLGHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>Q+F  + PQ AA  P   RLRWT +LHN+F+++V  LGG DKATP  ILK MGVDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>CAMNT_0021476239</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0930-20121108|2107 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC1621&quot; /NCGR_SAMPLE_ID=MMETSP0930 /ASSEMBLY_ACC=CAM_ASM_000580 /LENGTH=2728</Hit_def>
+  <Hit_accession>CAMNT_0021476239</Hit_accession>
+  <Hit_len>2728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.00517e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>CAMNT_0021560641</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0936-20121108|2494 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC2573&quot; /NCGR_SAMPLE_ID=MMETSP0936 /ASSEMBLY_ACC=CAM_ASM_000574 /LENGTH=2789</Hit_def>
+  <Hit_accession>CAMNT_0021560641</Hit_accession>
+  <Hit_len>2789</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.27511e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>2432</Hsp_hit-from>
+      <Hsp_hit-to>2596</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>CAMNT_0021577787</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0937-20121108|3385 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC2593&quot; /NCGR_SAMPLE_ID=MMETSP0937 /ASSEMBLY_ACC=CAM_ASM_000575 /LENGTH=3415</Hit_def>
+  <Hit_accession>CAMNT_0021577787</Hit_accession>
+  <Hit_len>3415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.35842e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>2658</Hsp_hit-from>
+      <Hsp_hit-to>2822</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>CAMNT_0007127569</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1310-20130426|21702 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC2339&quot; /LENGTH=957</Hit_def>
+  <Hit_accession>CAMNT_0007127569</Hit_accession>
+  <Hit_len>957</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.6456e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>722</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KQRMRWSPGLHKCFVAAVERLGGPHKATPKAIMDIMGVEGLTLLHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K R+RW+P LH  FV AV  LGGP KATPK I+ +MGV+GLT+ H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>CAMNT_0021482121</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0930-20121108|5048 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus mediterraneus, Strain clade-D-RCC1621&quot; /NCGR_SAMPLE_ID=MMETSP0930 /ASSEMBLY_ACC=CAM_ASM_000580 /LENGTH=2988</Hit_def>
+  <Hit_accession>CAMNT_0021482121</Hit_accession>
+  <Hit_len>2988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.67841e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>2418</Hsp_hit-from>
+      <Hsp_hit-to>2582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KARLRWTPELHRSFIGAVEKLGGLELATPKGIMQLMDTSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>K+RLRWTPELH  F+ AV  LGG + ATPKGI++LM   G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>CAMNT_0041575663</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0941-20130531|3117 /TAXON_ID=156131 /ORGANISM=&quot;Prasinococcus capsulatus, Strain CCMP1194&quot; /LENGTH=3723</Hit_def>
+  <Hit_accession>CAMNT_0041575663</Hit_accession>
+  <Hit_len>3723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>3.54357e-15</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>2495</Hsp_hit-from>
+      <Hsp_hit-to>2665</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>KNRLRWTAELHSKFQLAVAELGGPLKATPKKILKHMGATGLTIFHVKSHLQKYRLTV</Hsp_hseq>
+      <Hsp_midline>K+RLRWT ELH++F  AV  LGGP KATPK ILK MG  GLTI+H+KSHLQKYRL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>CAMNT_0026281789</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0820-20130417|75444 /TAXON_ID=3165 /ORGANISM=&quot;Tetraselmis striata, Strain LANL1001&quot; /LENGTH=1718</Hit_def>
+  <Hit_accession>CAMNT_0026281789</Hit_accession>
+  <Hit_len>1718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>4.55594e-15</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>832</Hsp_hit-from>
+      <Hsp_hit-to>1044</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>QYF--MQPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>QHFGGLFPQSAAFRP---RLRWTNDLHNQFLDSVERLGGTDKATPSAILKHMGVDGLSLGHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>Q+F  + PQ AA  P   RLRWT +LHN+F+++V  LGG DKATP  ILK MGVDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>CAMNT_0042575299</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1390-20130617|24659 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp., Strain CCMP2099&quot; /LENGTH=1502</Hit_def>
+  <Hit_accession>CAMNT_0042575299</Hit_accession>
+  <Hit_len>1502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>4.83643e-15</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>635</Hsp_hit-from>
+      <Hsp_hit-to>829</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>QPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>QNADGACAHGKQRLRWTPSLHKRFVEAVHLLGGLDLATPKGIMQFMDVEGMSIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>Q    A    K RLRWTP LH RFV AV+ LGG D ATPKGI++ M V+G++I H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>CAMNT_0007220587</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1327-20130426|30482 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas pusilla, Strain RCC2306&quot; /LENGTH=1426</Hit_def>
+  <Hit_accession>CAMNT_0007220587</Hit_accession>
+  <Hit_len>1426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>5.39873e-15</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>602</Hsp_hit-from>
+      <Hsp_hit-to>796</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>QPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>QNADGACAHGKQRLRWTPSLHKRFVEAVRLLGGLDLATPKGIMQFMDVEGMSIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>Q    A    K RLRWTP LH RFV AV  LGG D ATPKGI++ M V+G++I H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>CAMNT_0005436255</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0802-20121206|4269 /TAXON_ID=38833 /ORGANISM=&quot;Micromonas sp., Strain CCMP2099&quot; /LENGTH=1630</Hit_def>
+  <Hit_accession>CAMNT_0005436255</Hit_accession>
+  <Hit_len>1630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>5.57471e-15</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>806</Hsp_hit-from>
+      <Hsp_hit-to>1000</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>QPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>QNADGACAHGKQRLRWTPSLHKRFVEAVHLLGGLDLATPKGIMQFMDVEGMSIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>Q    A    K RLRWTP LH RFV AV+ LGG D ATPKGI++ M V+G++I H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>CAMNT_0010368239</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0033_2-20121228|832 /TAXON_ID=195969 /ORGANISM=&quot;Dolichomastix tenuilepis, Strain CCMP3274&quot; /LENGTH=1750</Hit_def>
+  <Hit_accession>CAMNT_0010368239</Hit_accession>
+  <Hit_len>1750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>6.98734e-15</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>768</Hsp_hit-from>
+      <Hsp_hit-to>926</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RLRWTPELHARFIDAVTHLGGLDRATPKAIVNLMNVERMTIQHVKSHLQKYRI</Hsp_hseq>
+      <Hsp_midline>RLRWTPELH RF++AV  LGG D+ATPK I+ LM V+ +TI H+KSHLQKYR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>CAMNT_0021615041</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0939-20121108|6221 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus lucimarinus, Strain clade-A-BCC118000&quot; /NCGR_SAMPLE_ID=MMETSP0939 /ASSEMBLY_ACC=CAM_ASM_000583 /LENGTH=1093</Hit_def>
+  <Hit_accession>CAMNT_0021615041</Hit_accession>
+  <Hit_len>1093</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.06915e-14</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>618</Hsp_hit-from>
+      <Hsp_hit-to>767</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>WTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>WTPELHREFINAVNQLGGLELATPKGIMHIMAMSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>WTPELH  F+NAVN LGG + ATPKGI+ +M + G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>CAMNT_0021618197</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0939-20121108|7799 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus lucimarinus, Strain clade-A-BCC118000&quot; /NCGR_SAMPLE_ID=MMETSP0939 /ASSEMBLY_ACC=CAM_ASM_000583 /LENGTH=1090</Hit_def>
+  <Hit_accession>CAMNT_0021618197</Hit_accession>
+  <Hit_len>1090</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.20233e-14</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>618</Hsp_hit-from>
+      <Hsp_hit-to>767</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>WTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>WTPELHREFINAVNQLGGLELATPKGIMHIMAMSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>WTPELH  F+NAVN LGG + ATPKGI+ +M + G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>CAMNT_0044213981</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1460-20131121|43594 /TAXON_ID=41875 /ORGANISM=&quot;Bathycoccus prasinos, Strain RCC716&quot; /LENGTH=4114</Hit_def>
+  <Hit_accession>CAMNT_0044213981</Hit_accession>
+  <Hit_len>4114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.3524e-14</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>3062</Hsp_hit-from>
+      <Hsp_hit-to>3244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>SKTDSDRCRLRWTPELHARFLRAVKTLGGLDIATPKGVVELMRVQGVTIPHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>+ T   + RLRWTPELH RF+ AV +LGG D ATPKG+++LM V G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>CAMNT_0042618361</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1399-20130617|20029 /TAXON_ID=41875 /ORGANISM=&quot;Bathycoccus prasinos, Strain CCMP1898&quot; /LENGTH=3721</Hit_def>
+  <Hit_accession>CAMNT_0042618361</Hit_accession>
+  <Hit_len>3721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.69787e-14</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>2784</Hsp_hit-from>
+      <Hsp_hit-to>2948</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RCRLRWTPELHARFLRSVKTLGGLDIATPKGVVELMRVQGVTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>+ RLRWTPELH RF+ +V +LGG D ATPKG+++LM V G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>CAMNT_0021512995</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0933-20121108|3897 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus prasinos, Strain BCC99000&quot; /NCGR_SAMPLE_ID=MMETSP0933 /ASSEMBLY_ACC=CAM_ASM_000594 /LENGTH=3729</Hit_def>
+  <Hit_accession>CAMNT_0021512995</Hit_accession>
+  <Hit_len>3729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.85143e-14</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>2766</Hsp_hit-from>
+      <Hsp_hit-to>2930</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RCRLRWTPELHARFLRSVKTLGGLDIATPKGVVELMRVQGVTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>+ RLRWTPELH RF+ +V +LGG D ATPKG+++LM V G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>CAMNT_0021517413</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0933-20121108|6106 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus prasinos, Strain BCC99000&quot; /NCGR_SAMPLE_ID=MMETSP0933 /ASSEMBLY_ACC=CAM_ASM_000594 /LENGTH=3758</Hit_def>
+  <Hit_accession>CAMNT_0021517413</Hit_accession>
+  <Hit_len>3758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.85674e-14</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>2795</Hsp_hit-from>
+      <Hsp_hit-to>2959</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>RCRLRWTPELHARFLRSVKTLGGLDIATPKGVVELMRVQGVTIQHVKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>+ RLRWTPELH RF+ +V +LGG D ATPKG+++LM V G+TI H+KSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>CAMNT_0021605831</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0939-20121108|1616 /TAXON_ID=548131 ORGANISM=&quot;Ostreococcus lucimarinus, Strain clade-A-BCC118000&quot; /NCGR_SAMPLE_ID=MMETSP0939 /ASSEMBLY_ACC=CAM_ASM_000583 /LENGTH=1280</Hit_def>
+  <Hit_accession>CAMNT_0021605831</Hit_accession>
+  <Hit_len>1280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.91228e-14</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>663</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>WTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>WTPELHREFINAVNQLGGLELATPKGIMHIMAMSGMTIQHIKSHLQKYRL</Hsp_hseq>
+      <Hsp_midline>WTPELH  F+NAVN LGG + ATPKGI+ +M + G+TI HIKSHLQKYRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>CAMNT_0027105407</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0308-20130426|45979 /TAXON_ID=38269 /ORGANISM=&quot;Gloeochaete witrockiana, Strain SAG 46.84&quot; /LENGTH=1101</Hit_def>
+  <Hit_accession>CAMNT_0027105407</Hit_accession>
+  <Hit_len>1101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>4.41924e-14</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>744</Hsp_hit-from>
+      <Hsp_hit-to>917</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>VKRRLVWTPELHQRFIAAVNILGI-HCAAPKAILQLMNIDGLTAEHVKSHLQKYRMNLR</Hsp_hseq>
+      <Hsp_midline> K RL WTPELH RF+ AVN LG    A PK IL+LM +DGLT  H+KSHLQKYR+N+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>CAMNT_0026711587</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1089-20130417|162096 /TAXON_ID=38269 ORGANISM=&quot;Gloeochaete wittrockiana, Strain SAG46.84&quot; /NCGR_SAMPLE_ID=MMETSP1089 /ASSEMBLY_ACC=CAM_ASM_000445 /LENGTH=1364</Hit_def>
+  <Hit_accession>CAMNT_0026711587</Hit_accession>
+  <Hit_len>1364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>7.05773e-14</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>898</Hsp_hit-from>
+      <Hsp_hit-to>1071</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>VKRRLVWTPELHQRFIAAVNILGI-HCAAPKAILQLMNIDGLTAEHVKSHLQKYRMNLR</Hsp_hseq>
+      <Hsp_midline> K RL WTPELH RF+ AVN LG    A PK IL+LM +DGLT  H+KSHLQKYR+N+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>CAMNT_0041986975</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1086-20130531|4679 /TAXON_ID=77921 /ORGANISM=&quot;Cyanoptyche  gloeocystis , Strain SAG4.97&quot; /LENGTH=3648</Hit_def>
+  <Hit_accession>CAMNT_0041986975</Hit_accession>
+  <Hit_len>3648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.99865e-13</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>737</Hsp_hit-from>
+      <Hsp_hit-to>937</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>QPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>QSESDANAANKKRLVWTPELHQRFVAAVNILGV-HCAAPKAILQLMNIEGLTAEHVKSHLQKYRINMK</Hsp_hseq>
+      <Hsp_midline>Q +  A    K RL WTPELH RFV AVN LG    A PK IL+LM ++GLT  H+KSHLQKYR+N++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>CAMNT_0019312585</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0491_2-20121128|23391 /TAXON_ID=63592 /ORGANISM=&quot;Tetraselmis chuii, Strain PLY429&quot; /LENGTH=909</Hit_def>
+  <Hit_accession>CAMNT_0019312585</Hit_accession>
+  <Hit_len>909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>3.2717e-13</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>513</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RLRWTNDLHNQFLESVEQLGGHGKATPSAILKHMAVDGLSLSHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>RLRWT +LHN+F+ +V  LGG  KATP  ILK M VDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>CAMNT_0006734259</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1161-20130426|27000 /TAXON_ID=249345 /ORGANISM=&quot;Picochlorum oklahomensis, Strain CCMP2329&quot; /LENGTH=2424</Hit_def>
+  <Hit_accession>CAMNT_0006734259</Hit_accession>
+  <Hit_len>2424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>3.83179e-13</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>685</Hsp_hit-from>
+      <Hsp_hit-to>858</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNI</Hsp_qseq>
+      <Hsp_hseq>GKPQLRWTIELHKRFVEAVQRLGGPAKATPKQVQIVMNVEGLQIAHVKSHLQKYRLSL</Hsp_hseq>
+      <Hsp_midline> K +LRWT ELH RFV AV  LGGP KATPK +  +M V+GL I H+KSHLQKYRL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>CAMNT_0005471923</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0804-20121206|9346 /TAXON_ID=1074897 /ORGANISM=&quot;Tetraselmis astigmatica, Strain CCMP880&quot; /LENGTH=1433</Hit_def>
+  <Hit_accession>CAMNT_0005471923</Hit_accession>
+  <Hit_len>1433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.20488e-13</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>573</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>ATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYR</Hsp_qseq>
+      <Hsp_hseq>ASSTFKPRLRWTDDLHDKFIDAVEKLGGYSRATPSAILKAMGVDKLELGHVKSHLQKYR</Hsp_hseq>
+      <Hsp_midline>A+   K RLRWT +LH++F++AV  LGG  +ATP  ILK MGVD L + H+KSHLQKYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>CAMNT_0019319351</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0491_2-20121128|26774 /TAXON_ID=63592 /ORGANISM=&quot;Tetraselmis chuii, Strain PLY429&quot; /LENGTH=1282</Hit_def>
+  <Hit_accession>CAMNT_0019319351</Hit_accession>
+  <Hit_len>1282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>9.07927e-13</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>475</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RLRWTNDLHNQFLESVEQLGGHGKATPSAILKHMAVDGLSLSHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>RLRWT +LHN+F+ +V  LGG  KATP  ILK M VDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>CAMNT_0019287449</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0491_2-20121128|10823 /TAXON_ID=63592 /ORGANISM=&quot;Tetraselmis chuii, Strain PLY429&quot; /LENGTH=1250</Hit_def>
+  <Hit_accession>CAMNT_0019287449</Hit_accession>
+  <Hit_len>1250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.17086e-12</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>447</Hsp_hit-from>
+      <Hsp_hit-to>614</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RLRWTNDLHNQFLESVEQLGGHGKATPSAILKHMAVDGLSLSHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>RLRWT +LHN+F+ +V  LGG  KATP  ILK M VDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>CAMNT_0019301655</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0491_2-20121128|17926 /TAXON_ID=63592 /ORGANISM=&quot;Tetraselmis chuii, Strain PLY429&quot; /LENGTH=1301</Hit_def>
+  <Hit_accession>CAMNT_0019301655</Hit_accession>
+  <Hit_len>1301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.20384e-12</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>661</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RLRWTNDLHNQFLESVEQLGGHGKATPSAILKHMAVDGLSLSHVKSHLQKYRTELK</Hsp_hseq>
+      <Hsp_midline>RLRWT +LHN+F+ +V  LGG  KATP  ILK M VDGL++ H+KSHLQKYR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>CAMNT_0007124259</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1310-20130426|13440 /TAXON_ID=464262 /ORGANISM=&quot;Genus nov. species nov., Strain RCC2339&quot; /LENGTH=312</Hit_def>
+  <Hit_accession>CAMNT_0007124259</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.6578e-12</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PQRAATGPA---KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>PGKAGMGPTPLKRPRLVWTPSLHRRFVEAVNTLG-EKRAVPKSIMKIMNVEGLTRENVASHLQKYRLHLK</Hsp_hseq>
+      <Hsp_midline>P +A  GP    + RL WTP LH RFV AVN+LG   +A PK I+K+M V+GLT  ++ SHLQKYRL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>CAMNT_0024070999</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1151-20121109|32105 /TAXON_ID=2903 /ORGANISM=&quot;Emiliania huxleyi, Strain PLY M219&quot; /LENGTH=398</Hit_def>
+  <Hit_accession>CAMNT_0024070999</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.0124e-12</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRL</Hsp_qseq>
+      <Hsp_hseq>KRRFVWTPDLHSRFESACNQLG-LDNAKPKSILKLMDVDGLTKANIKSHLQKYRC</Hsp_hseq>
+      <Hsp_midline>K R  WTP+LH+RF +A N LG  D A PK ILKLM VDGLT  +IKSHLQKYR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>CAMNT_0028541957</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1353-20130828|18414 /TAXON_ID=1077150 /ORGANISM=&quot;Erythrolobus australicus, Strain CCMP3124&quot; /LENGTH=2927</Hit_def>
+  <Hit_accession>CAMNT_0028541957</Hit_accession>
+  <Hit_len>2927</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>2.38665e-12</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1473</Hsp_hit-from>
+      <Hsp_hit-to>1646</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>SKQRVVWTPELHERFVEAVNAVG-LHQAVPRTLIQLMNVDGLTSEHVKSHLQKYRKNLR</Hsp_hseq>
+      <Hsp_midline>+K R+ WTPELH RFV AVN++G   +A P+ +++LM VDGLT  H+KSHLQKYR N+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>CAMNT_0026697063</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1089-20130417|115846 /TAXON_ID=38269 ORGANISM=&quot;Gloeochaete wittrockiana, Strain SAG46.84&quot; /NCGR_SAMPLE_ID=MMETSP1089 /ASSEMBLY_ACC=CAM_ASM_000445 /LENGTH=2371</Hit_def>
+  <Hit_accession>CAMNT_0026697063</Hit_accession>
+  <Hit_len>2371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>2.77618e-12</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1287</Hsp_hit-from>
+      <Hsp_hit-to>1457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RKRLVWTPDLHQRFVAAVNILGI-HCAAPKAILQLMNIEGLTAEHVKSHLQKYRMNLK</Hsp_hseq>
+      <Hsp_midline>+ RL WTP+LH RFV AVN LG    A PK IL+LM ++GLT  H+KSHLQKYR+N++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>CAMNT_0027120063</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0308-20130426|86249 /TAXON_ID=38269 /ORGANISM=&quot;Gloeochaete witrockiana, Strain SAG 46.84&quot; /LENGTH=4143</Hit_def>
+  <Hit_accession>CAMNT_0027120063</Hit_accession>
+  <Hit_len>4143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>3.59619e-12</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>2705</Hsp_hit-from>
+      <Hsp_hit-to>2875</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RKRLVWTPDLHQRFVAAVNILGI-HCAAPKAILQLMNIEGLTAEHVKSHLQKYRMNLK</Hsp_hseq>
+      <Hsp_midline>+ RL WTP+LH RFV AVN LG    A PK IL+LM ++GLT  H+KSHLQKYR+N++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>CAMNT_0043187549</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1326-20131121|61641 /TAXON_ID=1155430 /ORGANISM=&quot;Genus nov. species nov., Strain RCC2288&quot; /LENGTH=1304</Hit_def>
+  <Hit_accession>CAMNT_0043187549</Hit_accession>
+  <Hit_len>1304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>3.59927e-12</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1018</Hsp_hit-from>
+      <Hsp_hit-to>1173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYR</Hsp_qseq>
+      <Hsp_hseq>RFRWTPELHRRFIEAMQRLGGLELCTPKGIMILMGVPGMKIHHVKSHLQKTR</Hsp_hseq>
+      <Hsp_midline>R RWTPELH RF+ A+  LGG +  TPKGI+ LMGV G+ I+H+KSHLQK R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>101</Hit_num>
+  <Hit_id>CAMNT_0010369441</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0033_2-20121228|1604 /TAXON_ID=195969 /ORGANISM=&quot;Dolichomastix tenuilepis, Strain CCMP3274&quot; /LENGTH=523</Hit_def>
+  <Hit_accession>CAMNT_0010369441</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.93683e-12</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>RLVWTPQLHSRFVDAVNHLG-VETAVPKTIMQLMNVDGLTRENVASHLQKYRLYLR</Hsp_hseq>
+      <Hsp_midline>RL WTP+LH+RFV+AVN LG  + A PK I++LM VDGLT  ++ SHLQKYRL +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>102</Hit_num>
+  <Hit_id>CAMNT_0003962495</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0384-20121206|55704 /TAXON_ID=2926 /ORGANISM=&quot;Alexandrium tamarense, Strain CCMP1771&quot; /LENGTH=476</Hit_def>
+  <Hit_accession>CAMNT_0003962495</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>4.48418e-12</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>TGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>SGLKKPRVVWSPELHQQFVTAVNQLG-IDKAVPKRILDLMGVQGLTRENVASHLQKYRLYLK</Hsp_hseq>
+      <Hsp_midline>+G  K R+ W+PELH +FV AVN LG  DKA PK IL LMGV GLT  ++ SHLQKYRL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>103</Hit_num>
+  <Hit_id>CAMNT_0047846297</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0063_2-20130828|58377 /ASSEMBLY_ACC=CAM_ASM_000185 /TAXON_ID=327068 /ORGANISM=&quot;Chlamydomonas euryale, Strain CCMP219&quot; /LENGTH=755</Hit_def>
+  <Hit_accession>CAMNT_0047846297</Hit_accession>
+  <Hit_len>755</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>6.979e-12</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>433</Hsp_hit-from>
+      <Hsp_hit-to>633</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>QPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>QNDEDATASKKPRVVWSVDMHQQFVNAVNQLG-VDKAVPKKILEIMKVDGLTRENVASHLQKYRLYLK</Hsp_hseq>
+      <Hsp_midline>Q    AT   K R+ W+ ++H +FVNAVN LG  DKA PK IL++M VDGLT  ++ SHLQKYRL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>104</Hit_num>
+  <Hit_id>CAMNT_0026716337</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1089-20130417|164469 /TAXON_ID=38269 ORGANISM=&quot;Gloeochaete wittrockiana, Strain SAG46.84&quot; /NCGR_SAMPLE_ID=MMETSP1089 /ASSEMBLY_ACC=CAM_ASM_000445 /LENGTH=2962</Hit_def>
+  <Hit_accession>CAMNT_0026716337</Hit_accession>
+  <Hit_len>2962</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>7.44002e-12</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>2196</Hsp_hit-from>
+      <Hsp_hit-to>2372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>KRRLVWTDKLHQRFIDAVNMLG-EKYASPKGILSLMSVNGLTVGHVKSHLQKYRHSLKRP</Hsp_hseq>
+      <Hsp_midline>K RL WT +LH RF++AVN LG    A+PKGIL LM V+GLT+ H+KSHLQKYR +++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>105</Hit_num>
+  <Hit_id>CAMNT_0027088807</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0308-20130426|11093 /TAXON_ID=38269 /ORGANISM=&quot;Gloeochaete witrockiana, Strain SAG 46.84&quot; /LENGTH=3109</Hit_def>
+  <Hit_accession>CAMNT_0027088807</Hit_accession>
+  <Hit_len>3109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>7.6067e-12</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>2253</Hsp_hit-from>
+      <Hsp_hit-to>2429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIRLP</Hsp_qseq>
+      <Hsp_hseq>KRRLVWTDKLHQRFIDAVNMLG-EKYASPKGILSLMSVNGLTVGHVKSHLQKYRHSLKRP</Hsp_hseq>
+      <Hsp_midline>K RL WT +LH RF++AVN LG    A+PKGIL LM V+GLT+ H+KSHLQKYR +++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>106</Hit_num>
+  <Hit_id>CAMNT_0023483253</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1106-20121128|11437 /TAXON_ID=81844 /ORGANISM=&quot;Mantoniella antarctica, Strain SL-175&quot; /LENGTH=357</Hit_def>
+  <Hit_accession>CAMNT_0023483253</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.39247e-11</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KARLVWTPELHMRFMNAVNHLGIKN-AVPKTILQLMNVEGMTRENVASHLQKYRLYLK</Hsp_hseq>
+      <Hsp_midline>K+RL WTPELH RF+NAVN LG  + A PK IL+LM V+G+T  ++ SHLQKYRL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>107</Hit_num>
+  <Hit_id>CAMNT_0049603117</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1392-20130828|57291 /ASSEMBLY_ACC=CAM_ASM_000868 /TAXON_ID=225041 /ORGANISM=&quot;Chlamydomonas chlamydogama, Strain SAG 11-48b&quot; /LENGTH=2744</Hit_def>
+  <Hit_accession>CAMNT_0049603117</Hit_accession>
+  <Hit_len>2744</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.48376e-11</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>912</Hsp_hit-from>
+      <Hsp_hit-to>1091</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>GLKKSRLIWTPDLHTRFVAAVNKLG-VQNAVPKTILQMMGVQGMTRENVASHLQKYRLHLK</Hsp_hseq>
+      <Hsp_midline>G  KSRL WTP+LH RFV AVN LG    A PK IL++MGV G+T  ++ SHLQKYRL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>108</Hit_num>
+  <Hit_id>CAMNT_0041585681</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0941-20130531|19429 /TAXON_ID=156131 /ORGANISM=&quot;Prasinococcus capsulatus, Strain CCMP1194&quot; /LENGTH=1380</Hit_def>
+  <Hit_accession>CAMNT_0041585681</Hit_accession>
+  <Hit_len>1380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.66266e-11</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>501</Hsp_hit-from>
+      <Hsp_hit-to>707</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MQPQRAATGPAKS-RLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>MQREEPAPKPVKRPRLVWTPQLHKRFVSAVTYLG-PKQAVPKTVMQLMNVEGLTRENVASHLQKYRLSLK</Hsp_hseq>
+      <Hsp_midline>MQ +  A  P K  RL WTP+LH RFV+AV  LG P +A PK +++LM V+GLT  ++ SHLQKYRL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>109</Hit_num>
+  <Hit_id>CAMNT_0044441881</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1468-20131203|161919 /TAXON_ID=1461545 /ORGANISM=&quot;Mantoniella sp, Strain CCMP1436&quot; /LENGTH=383</Hit_def>
+  <Hit_accession>CAMNT_0044441881</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.67569e-11</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KARLVWTPELHMRFMNAVNHLGI-KNAVPKTILQLMNVEGMTRENVASHLQKYRLYLK</Hsp_hseq>
+      <Hsp_midline>K+RL WTPELH RF+NAVN LG    A PK IL+LM V+G+T  ++ SHLQKYRL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>110</Hit_num>
+  <Hit_id>CAMNT_0019095201</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP0419_2-20121207|14508 /TAXON_ID=582737 /ORGANISM=&quot;Tetraselmis sp., Strain GSL018&quot; /LENGTH=1360</Hit_def>
+  <Hit_accession>CAMNT_0019095201</Hit_accession>
+  <Hit_len>1360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.78688e-11</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>717</Hsp_hit-from>
+      <Hsp_hit-to>890</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>KPRLRWSNELHSRFVAAVERLGGHARATPASVLEAMGVPDLQLHHVKSHLQKYRSEKR</Hsp_hseq>
+      <Hsp_midline>K RLRW+ ELH+RFV AV  LGG  +ATP  +L+ MGV  L ++H+KSHLQKYR   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>111</Hit_num>
+  <Hit_id>CAMNT_0044498885</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1475-20131203|58217 /TAXON_ID= ORGANISM=&quot;Unidentified sp., Strain CCMP1999&quot; /NCGR_SAMPLE_ID=MMETSP1475 /ASSEMBLY_ACC=CAM_ASM_001111 /LENGTH=2452</Hit_def>
+  <Hit_accession>CAMNT_0044498885</Hit_accession>
+  <Hit_len>2452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.17612e-11</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1366</Hsp_hit-from>
+      <Hsp_hit-to>1533</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>SRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>NRLIWTPELHERFVTAINSVGIQN-AVPKAILQLMNVPDLTTEHVKSHLQKYRNNLK</Hsp_hseq>
+      <Hsp_midline>+RL WTPELH RFV A+NS+G  + A PK IL+LM V  LT  H+KSHLQKYR N++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>112</Hit_num>
+  <Hit_id>CAMNT_0028560029</Hit_id>
+  <Hit_def>/NCGR_SEQ_ID=MMETSP1354-20130828|29667 /TAXON_ID=708628 /ORGANISM=&quot;Erythrolobus madagascarensis, Strain CCMP3276&quot; /LENGTH=1918</Hit_def>
+  <Hit_accession>CAMNT_0028560029</Hit_accession>
+  <Hit_len>1918</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.03362e-11</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1443</Hsp_hit-from>
+      <Hsp_hit-to>1616</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>AKSRLRWTPELHNRFVNAVNSLGGPDKATPKGILKLMGVDGLTIYHIKSHLQKYRLNIR</Hsp_qseq>
+      <Hsp_hseq>AKKRVVWTPELHERFVQAVSAVGL-HQAVPKTLILLMNVEGLTSEHVKSHLQKYRKNLR</Hsp_hseq>
+      <Hsp_midline>AK R+ WTPELH RFV AV+++G   +A PK ++ LM V+GLT  H+KSHLQKYR N+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>19266632</Statistics_db-num>
+      <Statistics_db-len>20078144264</Statistics_db-len>
+      <Statistics_hsp-len>149</Statistics_hsp-len>
+      <Statistics_eff-space>2304657911358</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
