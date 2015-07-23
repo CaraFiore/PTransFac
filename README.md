@@ -8,6 +8,7 @@
 - Create a phylogeny of all hits to MMETSP and NCBI nr/nt. 
 - Run blast at a lower cutoff (1e-5)
 - MAST search to identify all the hits to the motifs in the Micro genome.  Can we do this same search for different organisms? E.g. can we put in a different set of sequences with the motif search output from Mpu? 
+- I played with this a bit last night and it did not work quite like I was expecting, I am going to try with different genome files
 
 
 
